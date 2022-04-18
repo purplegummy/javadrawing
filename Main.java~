@@ -1,0 +1,9 @@
+class Main{
+    public static void main (String [] args)
+    {
+  Picture p=new Picture();
+  Figure f=new Figure(210,75);
+  f.draw(100,0);
+  p.add(f);
+   }
+ }
